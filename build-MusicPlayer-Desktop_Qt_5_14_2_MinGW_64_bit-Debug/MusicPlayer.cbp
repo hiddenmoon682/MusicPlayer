@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MusicPlayer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\QT\;CMake Files\..\..\..\..\QT\QT\;CMake Files\..\..\..\..\QT\QT\5.14.2\;CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\;CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\;CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\;CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5\;CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Core\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/C++Code/c++Study/MusicPlayer/build-MusicPlayer-Desktop_Qt_5_14_2_MinGW_64_bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/SoftWare/cmake/cmake-4.3.0-windows-x86_64/bin/ninja.exe -v all"/>
+					<CompileFile command="D:/SoftWare/cmake/cmake-4.3.0-windows-x86_64/bin/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="D:/SoftWare/cmake/cmake-4.3.0-windows-x86_64/bin/ninja.exe -v clean"/>
+					<DistClean command="D:/SoftWare/cmake/cmake-4.3.0-windows-x86_64/bin/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MusicPlayer">
+				<Option output="D:/C++Code/c++Study/MusicPlayer/build-MusicPlayer-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/MusicPlayer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C++Code/c++Study/MusicPlayer/build-MusicPlayer-Desktop_Qt_5_14_2_MinGW_64_bit-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="D:/C++Code/c++Study/MusicPlayer/build-MusicPlayer-Desktop_Qt_5_14_2_MinGW_64_bit-Debug"/>
+					<Add directory="D:/C++Code/c++Study/MusicPlayer/MusicPlayer"/>
+					<Add directory="D:/C++Code/c++Study/MusicPlayer/build-MusicPlayer-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/MusicPlayer_autogen/include"/>
+					<Add directory="D:/QT/QT/5.14.2/mingw73_64/include"/>
+					<Add directory="D:/QT/QT/5.14.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/QT/QT/5.14.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/QT/QT/5.14.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/QT/QT/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/QT/QT/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/QT/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/QT/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/QT/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/QT/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/QT/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/QT/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/SoftWare/cmake/cmake-4.3.0-windows-x86_64/bin/ninja.exe -v MusicPlayer"/>
+					<CompileFile command="D:/SoftWare/cmake/cmake-4.3.0-windows-x86_64/bin/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="D:/SoftWare/cmake/cmake-4.3.0-windows-x86_64/bin/ninja.exe -v clean"/>
+					<DistClean command="D:/SoftWare/cmake/cmake-4.3.0-windows-x86_64/bin/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MusicPlayer/fast">
+				<Option output="D:/C++Code/c++Study/MusicPlayer/build-MusicPlayer-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/MusicPlayer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C++Code/c++Study/MusicPlayer/build-MusicPlayer-Desktop_Qt_5_14_2_MinGW_64_bit-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="D:/C++Code/c++Study/MusicPlayer/build-MusicPlayer-Desktop_Qt_5_14_2_MinGW_64_bit-Debug"/>
+					<Add directory="D:/C++Code/c++Study/MusicPlayer/MusicPlayer"/>
+					<Add directory="D:/C++Code/c++Study/MusicPlayer/build-MusicPlayer-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/MusicPlayer_autogen/include"/>
+					<Add directory="D:/QT/QT/5.14.2/mingw73_64/include"/>
+					<Add directory="D:/QT/QT/5.14.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/QT/QT/5.14.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/QT/QT/5.14.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/QT/QT/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/QT/QT/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/QT/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/QT/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/QT/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/QT/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/QT/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/QT/QT/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/SoftWare/cmake/cmake-4.3.0-windows-x86_64/bin/ninja.exe -v MusicPlayer/fast"/>
+					<CompileFile command="D:/SoftWare/cmake/cmake-4.3.0-windows-x86_64/bin/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="D:/SoftWare/cmake/cmake-4.3.0-windows-x86_64/bin/ninja.exe -v clean"/>
+					<DistClean command="D:/SoftWare/cmake/cmake-4.3.0-windows-x86_64/bin/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/C++Code/c++Study/MusicPlayer/build-MusicPlayer-Desktop_Qt_5_14_2_MinGW_64_bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/SoftWare/cmake/cmake-4.3.0-windows-x86_64/bin/ninja.exe -v edit_cache"/>
+					<CompileFile command="D:/SoftWare/cmake/cmake-4.3.0-windows-x86_64/bin/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="D:/SoftWare/cmake/cmake-4.3.0-windows-x86_64/bin/ninja.exe -v clean"/>
+					<DistClean command="D:/SoftWare/cmake/cmake-4.3.0-windows-x86_64/bin/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/C++Code/c++Study/MusicPlayer/build-MusicPlayer-Desktop_Qt_5_14_2_MinGW_64_bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/SoftWare/cmake/cmake-4.3.0-windows-x86_64/bin/ninja.exe -v rebuild_cache"/>
+					<CompileFile command="D:/SoftWare/cmake/cmake-4.3.0-windows-x86_64/bin/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="D:/SoftWare/cmake/cmake-4.3.0-windows-x86_64/bin/ninja.exe -v clean"/>
+					<DistClean command="D:/SoftWare/cmake/cmake-4.3.0-windows-x86_64/bin/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MusicPlayer_autogen">
+				<Option working_dir="D:/C++Code/c++Study/MusicPlayer/build-MusicPlayer-Desktop_Qt_5_14_2_MinGW_64_bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/SoftWare/cmake/cmake-4.3.0-windows-x86_64/bin/ninja.exe -v MusicPlayer_autogen"/>
+					<CompileFile command="D:/SoftWare/cmake/cmake-4.3.0-windows-x86_64/bin/ninja.exe -v &quot;$file&quot;"/>
+					<Clean command="D:/SoftWare/cmake/cmake-4.3.0-windows-x86_64/bin/ninja.exe -v clean"/>
+					<DistClean command="D:/SoftWare/cmake/cmake-4.3.0-windows-x86_64/bin/ninja.exe -v clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/main.cpp">
+			<Option target="MusicPlayer"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/musicplayer.cpp">
+			<Option target="MusicPlayer"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/musicplayer.h">
+			<Option target="MusicPlayer"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/musicplayer.ui">
+			<Option target="MusicPlayer"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/build-MusicPlayer-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/MusicPlayer_autogen/include/ui_musicplayer.h">
+			<Option target="MusicPlayer"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/build-MusicPlayer-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/MusicPlayer_autogen/mocs_compilation.cpp">
+			<Option target="MusicPlayer"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/C++Code/c++Study/MusicPlayer/MusicPlayer/../../../../QT/QT/5.14.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\QT\5.14.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

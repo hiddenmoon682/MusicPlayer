@@ -1,0 +1,11 @@
+# ninja log v7
+3	320	7971615259978953	CMakeFiles/MusicPlayer_autogen	20ae065a114e6704
+3	320	7971615259978953	MusicPlayer_autogen/mocs_compilation.cpp	20ae065a114e6704
+3	320	7971615259978953	MusicPlayer_autogen/include/ui_musicplayer.h	20ae065a114e6704
+3	320	7971615259978953	D:/C++Code/c++Study/MusicPlayer/build-MusicPlayer-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/CMakeFiles/MusicPlayer_autogen	20ae065a114e6704
+3	320	7971615259978953	D:/C++Code/c++Study/MusicPlayer/build-MusicPlayer-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/MusicPlayer_autogen/mocs_compilation.cpp	20ae065a114e6704
+3	320	7971615259978953	D:/C++Code/c++Study/MusicPlayer/build-MusicPlayer-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/MusicPlayer_autogen/include/ui_musicplayer.h	20ae065a114e6704
+320	1002	7971615263155353	CMakeFiles/MusicPlayer.dir/MusicPlayer_autogen/mocs_compilation.cpp.obj	cec04826fdd0ce8d
+328	1075	7971615263226935	CMakeFiles/MusicPlayer.dir/main.cpp.obj	4e6f402aab2ebb29
+335	1096	7971615263302298	CMakeFiles/MusicPlayer.dir/musicplayer.cpp.obj	9964ff2dd67cf816
+1096	1240	7971615270902990	MusicPlayer.exe	daa2b3ea83f50329
