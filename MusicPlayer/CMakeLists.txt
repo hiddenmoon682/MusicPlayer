@@ -1,45 +1,47 @@
-cmake_minimum_required(VERSION 3.5)
-
+cmake_minimum_required(VERSION 3.19)
 project(MusicPlayer LANGUAGES CXX)
 
-set(CMAKE_INCLUDE_CURRENT_DIR ON)
+find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets)
 
-set(CMAKE_AUTOUIC ON)
-set(CMAKE_AUTOMOC ON)
+qt_standard_project_setup()
+
 set(CMAKE_AUTORCC ON)
 
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# QtCreator supports the following variables for Android, which are identical to qmake Android variables.
-# Check http://doc.qt.io/qt-5/deployment-android.html for more information.
-# They need to be set before the find_package(Qt5 ...) call.
+qt_add_executable(MusicPlayer
+    WIN32 MACOSX_BUNDLE
+    src/main.cpp
+    src/musicplayer.cpp
+    src/musicplayer.h
+    src/musicplayer.ui
+    src/headwidget.cpp
+    src/headwidget.h
+    Images.qrc
+)
 
-#if(ANDROID)
-#    set(ANDROID_PACKAGE_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/android")
-#    if (ANDROID_ABI STREQUAL "armeabi-v7a")
-#        set(ANDROID_EXTRA_LIBS
-#            ${CMAKE_CURRENT_SOURCE_DIR}/path/to/libcrypto.so
-#            ${CMAKE_CURRENT_SOURCE_DIR}/path/to/libssl.so)
-#    endif()
-#endif()
 
-find_package(Qt5 COMPONENTS Widgets REQUIRED)
+# 2. 把src目录加入头文件搜索路径
+target_include_directories(MusicPlayer
+    PRIVATE
+        ${PROJECT_SOURCE_DIR}/src
+        ${PROJECT_SOURCE_DIR}/images
+)
 
-if(ANDROID)
-  add_library(MusicPlayer SHARED
-    main.cpp
-    musicplayer.cpp
-    musicplayer.h
-    musicplayer.ui
-  )
-else()
-  add_executable(MusicPlayer
-    main.cpp
-    musicplayer.cpp
-    musicplayer.h
-    musicplayer.ui
-  )
-endif()
+target_link_libraries(MusicPlayer
+    PRIVATE
+        Qt::Core
+        Qt::Widgets
+)
 
-target_link_libraries(MusicPlayer PRIVATE Qt5::Widgets)
+install(TARGETS MusicPlayer
+    BUNDLE  DESTINATION .
+    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+)
+
+qt_generate_deploy_app_script(
+    TARGET MusicPlayer
+    OUTPUT_SCRIPT deploy_script
+    NO_UNSUPPORTED_PLATFORM_ERROR
+)
+install(SCRIPT ${deploy_script})

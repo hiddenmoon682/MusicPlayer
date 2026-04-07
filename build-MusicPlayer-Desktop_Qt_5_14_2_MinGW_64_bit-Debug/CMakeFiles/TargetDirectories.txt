@@ -1,4 +1,0 @@
-D:/C++Code/c++Study/MusicPlayer/build-MusicPlayer-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/CMakeFiles/MusicPlayer.dir
-D:/C++Code/c++Study/MusicPlayer/build-MusicPlayer-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
-D:/C++Code/c++Study/MusicPlayer/build-MusicPlayer-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
-D:/C++Code/c++Study/MusicPlayer/build-MusicPlayer-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/CMakeFiles/MusicPlayer_autogen.dir
