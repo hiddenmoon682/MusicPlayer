@@ -7,6 +7,7 @@
 #include <QColor>
 #include <QFile>
 #include <QDirIterator>
+#include <QPushButton>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -23,6 +24,16 @@ public:
     ~MusicPlayer() override;
 
     void initUI();
+    void initBtForms();
+
+    void connectSignalsAndSlots();
+private slots:
+    void onMinButtonClicked();
+    void onMaxButtonClicked();
+    void onQuitButtonClicked();
+
+    void onBtFormClicked(int pageId);
+
 private:
     Ui::MusicPlayer *ui;
 };

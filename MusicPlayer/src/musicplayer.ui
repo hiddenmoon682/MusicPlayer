@@ -156,7 +156,23 @@ background-color:rgb(240,243,246);
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_4">
             <item>
-             <widget class="QLineEdit" name="lineEdit"/>
+             <widget class="QLineEdit" name="lineEdit">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>35</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">#lineEdit
+{
+background-color: #E3E3E3;   /*设置背景颜⾊*/ 
+/*设置四个⻆的圆⻆*/ 
+border-radius: 17px;         
+padding-left: 17px;          
+}</string>
+              </property>
+             </widget>
             </item>
            </layout>
           </widget>
@@ -164,7 +180,18 @@ background-color:rgb(240,243,246);
          <item>
           <widget class="QWidget" name="SettingBox" native="true">
            <property name="styleSheet">
-            <string notr="true"/>
+            <string notr="true">QPushButton
+{
+	border-radius:0px;
+	background-repeat:no-repeat;
+	border: none;
+	background-position:center center;
+}
+
+QPushButton:hover
+{
+	background-color:rgb(204,204,204);
+}</string>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_5">
             <item>
@@ -194,8 +221,14 @@ background-color:rgb(240,243,246);
                 <height>30</height>
                </size>
               </property>
+              <property name="styleSheet">
+               <string notr="true">#skin
+{
+	background-image: url(:/images/skin.png);
+}</string>
+              </property>
               <property name="text">
-               <string>skin</string>
+               <string/>
               </property>
              </widget>
             </item>
@@ -213,8 +246,14 @@ background-color:rgb(240,243,246);
                 <height>30</height>
                </size>
               </property>
+              <property name="styleSheet">
+               <string notr="true">#min
+{
+	background-image: url(:/images/min.png);
+}</string>
+              </property>
               <property name="text">
-               <string>min</string>
+               <string/>
               </property>
              </widget>
             </item>
@@ -232,8 +271,14 @@ background-color:rgb(240,243,246);
                 <height>30</height>
                </size>
               </property>
+              <property name="styleSheet">
+               <string notr="true">#max
+{
+	background-image: url(:/images/max.png);
+}</string>
+              </property>
               <property name="text">
-               <string>max</string>
+               <string/>
               </property>
              </widget>
             </item>
@@ -251,8 +296,14 @@ background-color:rgb(240,243,246);
                 <height>30</height>
                </size>
               </property>
+              <property name="styleSheet">
+               <string notr="true">#quit
+{
+	background-image: url(:/images/quit.png);
+}</string>
+              </property>
               <property name="text">
-               <string>quit</string>
+               <string/>
               </property>
              </widget>
             </item>
@@ -301,7 +352,7 @@ background-color:rgb(240,243,246);
          </size>
         </property>
         <property name="styleSheet">
-         <string notr="true">background-color:#f0f0f0</string>
+         <string notr="true">background-color:rgb(240,243,246);</string>
         </property>
         <layout class="QVBoxLayout" name="verticalLayout_2">
          <property name="spacing">
@@ -334,7 +385,7 @@ background-color:rgb(240,243,246);
             </size>
            </property>
            <property name="styleSheet">
-            <string notr="true">background-color:rgb(255, 85, 127)</string>
+            <string notr="true">background-color:rgb(240,243,246);</string>
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_3">
             <item>
@@ -355,7 +406,7 @@ background-color:rgb(240,243,246);
                <item>
                 <widget class="QLabel" name="OnlineMusicText">
                  <property name="styleSheet">
-                  <string notr="true">background-color:rgb(255, 255, 255)</string>
+                  <string notr="true"/>
                  </property>
                  <property name="text">
                   <string>在线音乐</string>
@@ -363,23 +414,23 @@ background-color:rgb(240,243,246);
                 </widget>
                </item>
                <item>
-                <widget class="QWidget" name="Rec" native="true">
+                <widget class="BtForm" name="Rec" native="true">
                  <property name="styleSheet">
-                  <string notr="true">background-color:rgb(255, 255, 255)</string>
+                  <string notr="true"/>
                  </property>
                 </widget>
                </item>
                <item>
-                <widget class="QWidget" name="Audio" native="true">
+                <widget class="BtForm" name="Audio" native="true">
                  <property name="styleSheet">
-                  <string notr="true">background-color:rgb(255, 255, 255)</string>
+                  <string notr="true"/>
                  </property>
                 </widget>
                </item>
                <item>
-                <widget class="QWidget" name="Music" native="true">
+                <widget class="BtForm" name="Music" native="true">
                  <property name="styleSheet">
-                  <string notr="true">background-color:rgb(255, 255, 255)</string>
+                  <string notr="true"/>
                  </property>
                 </widget>
                </item>
@@ -407,7 +458,7 @@ background-color:rgb(240,243,246);
                <item>
                 <widget class="QLabel" name="MyMusicText">
                  <property name="styleSheet">
-                  <string notr="true">background-color:rgb(255, 255, 255)</string>
+                  <string notr="true"/>
                  </property>
                  <property name="text">
                   <string>我的音乐</string>
@@ -415,23 +466,23 @@ background-color:rgb(240,243,246);
                 </widget>
                </item>
                <item>
-                <widget class="QWidget" name="Like" native="true">
+                <widget class="BtForm" name="Like" native="true">
                  <property name="styleSheet">
-                  <string notr="true">background-color:rgb(255, 255, 255)</string>
+                  <string notr="true"/>
                  </property>
                 </widget>
                </item>
                <item>
-                <widget class="QWidget" name="Local" native="true">
+                <widget class="BtForm" name="Local" native="true">
                  <property name="styleSheet">
-                  <string notr="true">background-color:rgb(255, 255, 255)</string>
+                  <string notr="true"/>
                  </property>
                 </widget>
                </item>
                <item>
-                <widget class="QWidget" name="Recent" native="true">
+                <widget class="BtForm" name="Recent" native="true">
                  <property name="styleSheet">
-                  <string notr="true">background-color:rgb(255, 255, 255)</string>
+                  <string notr="true"/>
                  </property>
                 </widget>
                </item>
@@ -480,12 +531,189 @@ background-color:rgb(240,243,246);
          </property>
          <item>
           <widget class="QStackedWidget" name="stackedWidget">
-           <widget class="QWidget" name="RecPage"/>
-           <widget class="QWidget" name="MusicPage"/>
-           <widget class="QWidget" name="RadioPage"/>
-           <widget class="QWidget" name="LikePage"/>
-           <widget class="QWidget" name="LocalPage"/>
-           <widget class="QWidget" name="RecentPage"/>
+           <property name="styleSheet">
+            <string notr="true">background-color:rgb(247,249,252)</string>
+           </property>
+           <widget class="QWidget" name="RecPage">
+            <widget class="QScrollArea" name="scrollArea">
+             <property name="geometry">
+              <rect>
+               <x>5</x>
+               <y>15</y>
+               <width>820</width>
+               <height>500</height>
+              </rect>
+             </property>
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>818</width>
+                <height>498</height>
+               </rect>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_7">
+               <item>
+                <widget class="QLabel" name="recText">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>50</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>24</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>推荐</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="recMusicText">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>18</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>今日为你推荐</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="RecBox" name="recMusicBox" native="true"/>
+               </item>
+               <item>
+                <widget class="QLabel" name="supplyMusicText">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>18</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>你的音乐补给站</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="RecBox" name="supplyMusicBox" native="true"/>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="MusicPage">
+            <widget class="QLabel" name="label_4">
+             <property name="geometry">
+              <rect>
+               <x>350</x>
+               <y>170</y>
+               <width>40</width>
+               <height>12</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>MusicPage</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="RadioPage">
+            <widget class="QLabel" name="label_5">
+             <property name="geometry">
+              <rect>
+               <x>290</x>
+               <y>192</y>
+               <width>40</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>RadioPage</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="LikePage">
+            <widget class="QLabel" name="label_2">
+             <property name="geometry">
+              <rect>
+               <x>280</x>
+               <y>190</y>
+               <width>40</width>
+               <height>12</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>LikePage</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="LocalPage">
+            <widget class="QLabel" name="label_3">
+             <property name="geometry">
+              <rect>
+               <x>290</x>
+               <y>180</y>
+               <width>40</width>
+               <height>12</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>LocalPage</string>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="RecentPage">
+            <widget class="QLabel" name="label_6">
+             <property name="geometry">
+              <rect>
+               <x>280</x>
+               <y>200</y>
+               <width>40</width>
+               <height>12</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string>RecentPage</string>
+             </property>
+            </widget>
+           </widget>
           </widget>
          </item>
          <item>
@@ -522,7 +750,7 @@ background-color:rgb(240,243,246);
             </size>
            </property>
            <property name="styleSheet">
-            <string notr="true">background-color:rgb(255, 85, 127)</string>
+            <string notr="true">background-color:rgb(247,249,252)</string>
            </property>
            <layout class="QHBoxLayout" name="horizontalLayout_7">
             <property name="spacing">
@@ -546,7 +774,7 @@ background-color:rgb(240,243,246);
                <item row="0" column="0" rowspan="2">
                 <widget class="QLabel" name="MusicCover">
                  <property name="styleSheet">
-                  <string notr="true">background-color:rgb(255, 255, 255)</string>
+                  <string notr="true">background-color:rgb(247,249,252)</string>
                  </property>
                  <property name="text">
                   <string>TextLabel</string>
@@ -556,7 +784,7 @@ background-color:rgb(240,243,246);
                <item row="0" column="1">
                 <widget class="QLabel" name="MusicName">
                  <property name="styleSheet">
-                  <string notr="true">background-color:rgb(255, 255, 255)</string>
+                  <string notr="true">background-color:rgb(247,249,252)</string>
                  </property>
                  <property name="text">
                   <string>歌名</string>
@@ -566,7 +794,7 @@ background-color:rgb(240,243,246);
                <item row="1" column="1">
                 <widget class="QLabel" name="MusicSinger">
                  <property name="styleSheet">
-                  <string notr="true">background-color:rgb(255, 255, 255)</string>
+                  <string notr="true">background-color:rgb(247,249,252)</string>
                  </property>
                  <property name="text">
                   <string>歌手</string>
@@ -578,6 +806,20 @@ background-color:rgb(240,243,246);
             </item>
             <item>
              <widget class="QWidget" name="play_2" native="true">
+              <property name="styleSheet">
+               <string notr="true">QPushButton
+{
+	border: none; /* 去除边框 */ 
+	background-repeat:no-repeat;
+	background-position:center center;
+	border-radius: 15px;
+}
+
+QPushButton:hover
+{
+	background-color:rgb(204,204,204);
+}</string>
+              </property>
               <layout class="QHBoxLayout" name="horizontalLayout_8">
                <property name="spacing">
                 <number>0</number>
@@ -595,7 +837,7 @@ background-color:rgb(240,243,246);
                 <number>0</number>
                </property>
                <item>
-                <widget class="QPushButton" name="PlayeModel">
+                <widget class="QPushButton" name="PlayModel">
                  <property name="minimumSize">
                   <size>
                    <width>30</width>
@@ -608,8 +850,15 @@ background-color:rgb(240,243,246);
                    <height>30</height>
                   </size>
                  </property>
+                 <property name="styleSheet">
+                  <string notr="true">#PlayModel
+{
+	background-image: url(:/images/shuffle_2.png);
+}
+</string>
+                 </property>
                  <property name="text">
-                  <string>模式</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -627,8 +876,15 @@ background-color:rgb(240,243,246);
                    <height>30</height>
                   </size>
                  </property>
+                 <property name="styleSheet">
+                  <string notr="true">#PlayPrev
+{
+	background-image: url(:/images/up.png);
+}
+</string>
+                 </property>
                  <property name="text">
-                  <string>&lt;</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -646,8 +902,15 @@ background-color:rgb(240,243,246);
                    <height>30</height>
                   </size>
                  </property>
+                 <property name="styleSheet">
+                  <string notr="true">#Play
+{
+	background-image: url(:/images/play.png);
+}
+</string>
+                 </property>
                  <property name="text">
-                  <string>||</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -665,8 +928,15 @@ background-color:rgb(240,243,246);
                    <height>30</height>
                   </size>
                  </property>
+                 <property name="styleSheet">
+                  <string notr="true">#PlayNext
+{
+	background-image: url(:/images/down.png);
+}
+</string>
+                 </property>
                  <property name="text">
-                  <string>&gt;</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -684,8 +954,15 @@ background-color:rgb(240,243,246);
                    <height>30</height>
                   </size>
                  </property>
+                 <property name="styleSheet">
+                  <string notr="true">#Volume
+{
+	background-image: url(:/images/volumn.png);
+}
+</string>
+                 </property>
                  <property name="text">
-                  <string>音量</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -703,8 +980,15 @@ background-color:rgb(240,243,246);
                    <height>30</height>
                   </size>
                  </property>
+                 <property name="styleSheet">
+                  <string notr="true">#AddLocal
+{
+	background-image: url(:/images/add.png);
+}
+</string>
+                 </property>
                  <property name="text">
-                  <string>下载</string>
+                  <string/>
                  </property>
                 </widget>
                </item>
@@ -800,7 +1084,19 @@ background-color:rgb(240,243,246);
   <customwidget>
    <class>HeadWidget</class>
    <extends>QWidget</extends>
-   <header>headwidget.h</header>
+   <header location="global">headwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>BtForm</class>
+   <extends>QWidget</extends>
+   <header location="global">btform.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>RecBox</class>
+   <extends>QWidget</extends>
+   <header location="global">recbox.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

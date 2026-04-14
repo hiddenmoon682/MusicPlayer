@@ -5,7 +5,10 @@ find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets)
 
 qt_standard_project_setup()
 
+# 开启自动连接
 set(CMAKE_AUTORCC ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTOUIC ON)
 
 
 qt_add_executable(MusicPlayer
@@ -17,6 +20,9 @@ qt_add_executable(MusicPlayer
     src/headwidget.cpp
     src/headwidget.h
     Images.qrc
+    src/btform.h src/btform.cpp src/btform.ui
+    src/recbox.h src/recbox.cpp src/recbox.ui
+    src/recboxitem.h src/recboxitem.cpp src/recboxitem.ui
 )
 
 
